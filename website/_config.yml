@@ -27,5 +27,5 @@ defaults:
       layout: "default"
 
 # Custom variables
-version: "1.0.0"
+version: "1.0.1"
 release_date: "March 5, 2025"
