@@ -1,6 +1,6 @@
 {
 	"nameShort": "Truncate",
-	"nameLong": "Truncate - Legal Document Environment",
+	"nameLong": "Truncate",
 	"applicationName": "Truncate",
 	"dataFolderName": ".Truncate",
 	"win32MutexName": "Truncate",

@@ -1,6 +1,6 @@
 # PLAN.md
 
-## Project: LegalIDE - VSCode Fork for Legal Professionals
+## Project: Truncate - VSCode Fork for Legal Professionals
 
 ### Project Overview
 

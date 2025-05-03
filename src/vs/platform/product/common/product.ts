@@ -62,7 +62,7 @@ else {
 		Object.assign(product, {
 			version: '1.95.0-dev',
 			nameShort: 'Truncate Dev',
-			nameLong: 'Truncate - Legal Document Environment Dev',
+			nameLong: 'Truncate Dev',
 			applicationName: 'truncate',
 			dataFolderName: '.vscode-oss',
 			urlProtocol: 'code-oss',

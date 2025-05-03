@@ -105,7 +105,7 @@ export const config = {
 	productAppName: product.nameLong,
 	companyName: 'Truncate',
 	copyright: 'Copyright (C) 2024 Truncate AB. All rights reserved',
-	darwinIcon: 'resources/darwin/Truncate.icns',
+	darwinIcon: 'resources/darwin/code.icns',
 	darwinBundleIdentifier: product.darwinBundleIdentifier,
 	darwinApplicationCategoryType: 'public.app-category.developer-tools',
 	darwinHelpBookFolder: 'Truncate HelpBook',
