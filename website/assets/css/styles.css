@@ -1,0 +1,153 @@
+/* Truncate Website Styles */
+
+:root {
+	/* Color Variables */
+	--primary-bg: #121212;
+	--secondary-bg: #1e1e1e;
+	--primary-text: #ffffff;
+	--secondary-text: #cccccc;
+	--accent-color: #00b3a4;
+	--accent-hover: #00d6c4;
+}
+
+/* Base Styles */
+body {
+	font-family: "Inter", sans-serif;
+	background-color: var(--primary-bg);
+	color: var(--primary-text);
+	line-height: 1.6;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/* Custom Tailwind Extensions */
+.bg-gray-900 {
+	background-color: var(--primary-bg);
+}
+
+.bg-gray-800 {
+	background-color: var(--secondary-bg);
+}
+
+.text-teal-400 {
+	color: var(--accent-color);
+}
+
+.text-teal-200 {
+	color: var(--accent-hover);
+}
+
+.bg-teal-500 {
+	background-color: var(--accent-color);
+}
+
+.hover\:bg-teal-400:hover {
+	background-color: var(--accent-hover);
+}
+
+/* Header Styles */
+header {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+header .logo a {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: var(--primary-text);
+}
+
+/* Hero Section */
+.hero {
+	padding: 5rem 0;
+}
+
+.hero-image img {
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Feature Cards */
+.feature-card {
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.feature-card:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Download Buttons */
+.download-button {
+	transition: all 0.3s ease;
+}
+
+.download-button:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 5px 15px rgba(0, 179, 164, 0.3);
+}
+
+/* System Requirements & Installation */
+.requirements-platform,
+.installation-platform {
+	border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Footer */
+footer {
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+	.hero {
+		padding: 3rem 0;
+	}
+
+	h1 {
+		font-size: 2rem;
+	}
+
+	.feature-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.download-buttons {
+		flex-direction: column;
+	}
+}
+
+/* Mobile Navigation */
+@media (max-width: 640px) {
+	header nav ul {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	header nav li {
+		margin: 0.5rem 0;
+	}
+}
+
+/* Animations */
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.hero,
+.features,
+.cta,
+.download,
+.system-requirements,
+.installation {
+	animation: fadeIn 0.8s ease-in-out;
+}
