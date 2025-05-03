@@ -61,9 +61,9 @@ else {
 	if (Object.keys(product).length === 0) {
 		Object.assign(product, {
 			version: '1.95.0-dev',
-			nameShort: 'Code - OSS Dev',
-			nameLong: 'Code - OSS Dev',
-			applicationName: 'code-oss',
+			nameShort: 'Truncate Dev',
+			nameLong: 'Truncate - Legal Document Environment Dev',
+			applicationName: 'truncate',
 			dataFolderName: '.vscode-oss',
 			urlProtocol: 'code-oss',
 			reportIssueUrl: 'https://github.com/microsoft/vscode/issues/new',
