@@ -1,0 +1,14 @@
+{
+    "name": "truncate-website",
+    "version": "1.0.0",
+    "description": "Truncate website with DNS management",
+    "main": "src/index.js",
+    "scripts": {
+        "update-dns": "node scripts/update-dns.js"
+    },
+    "private": true,
+    "dependencies": {
+        "dnsimple": "^9.0.0",
+        "dotenv": "^16.0.3"
+    }
+}
